@@ -1,0 +1,34 @@
+/*
+	Variables 
+*/
+
+$font-color-one: #222831; // almost black
+$font-color-two: #393E46; // dark grey
+$font-color-three: #00ADB5; // almost green
+$font-color-four: #EEEEEE; // sandy
+
+$basic-color: #fff;
+$basic-bgcolor: $basic-color;
+
+$basic-font-family: 'PT Sans', 'Roboto', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$basic-font-size: 1.6rem;
+$basic-font-weight: 400;
+$basic-line-height: 1.6;
+
+$basic-text-color: $font-color-one;
+$basic-link-color: $basic-text-color;
+$basic-link-hover-color: $font-color-two;
+$basic-link-hover-decoration: none;
+
+$columns: 12 !default;
+$grid-gutter-width: 20px !default;
+
+// @media breakpoints
+
+$xs: 480px !default;
+$sm: 768px !default;
+$md: 992px !default;
+$lg: 1200px !default;
+$xl: 1440px !default;
+
+

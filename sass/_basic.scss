@@ -1,0 +1,45 @@
+/*
+  Basic
+*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: $basic-font-family;
+    font-size: $basic-font-size;
+    font-weight: $basic-font-weight;
+    line-height: $basic-line-height;
+    color: $basic-text-color;
+    background-color: $basic-bgcolor;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a {
+  color: $basic-link-color;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: $basic-link-hover-color;
+    text-decoration: $basic-link-hover-decoration;
+  }
+}
+
+img {
+  vertical-align: middle;
+}
