@@ -20,7 +20,7 @@ html {
 body {
     font-family: $basic-font-family;
     font-size: $basic-font-size;
-    font-weight: $basic-font-weight;
+    font-weight: $basic-font-weight - 100;
     line-height: $basic-line-height;
     color: $basic-text-color;
     background-color: $basic-bgcolor;
